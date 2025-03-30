@@ -1,0 +1,22 @@
+/* Style CSS Assignment-02 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 21px;
+}
+table {
+    margin: 21px 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid;
+    margin: 21px;
+    padding: 12px;
+}
+th {
+    background-color: rgb(8, 223, 223);
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: rgb(214, 251, 251);
+}
